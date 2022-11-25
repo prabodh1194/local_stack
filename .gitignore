@@ -1,1 +1,3 @@
-/.idea
+/.idea/
+/.localstack/
+/__pycache__/
