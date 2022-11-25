@@ -1,6 +1,6 @@
 A test bench for sqs.
 
-1. Bringup localstack
+1. Bring up localstack
    ```bash
    docker-compose up
    ```
