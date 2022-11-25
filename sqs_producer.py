@@ -23,5 +23,6 @@ def send_message(queue_name, cnt):
     )
 
 
-for i in range(1, 10):
-    send_message('test_test', i)
+if __name__ == '__main__':
+    for i in range(10):
+        send_message('test_test', i)
