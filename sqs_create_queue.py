@@ -24,4 +24,5 @@ def create_queue(name, attributes=None):
         return queue
 
 
-create_queue('test_test')
+if __name__ == '__main__':
+    create_queue('test_test')
