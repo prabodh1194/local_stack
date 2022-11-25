@@ -1,14 +1,18 @@
 A test bench for sqs.
 
-1. create queue using
+1. Bringup localstack
+   ```bash
+   docker-compose up
+   ```
+2. create queue using
    ```bash
    python sqs_create_queue.py
    ```
-2. send 10 messages to this queue
+3. send 10 messages to this queue
    ```bash
    python sqs_producer.py
    ```
-3. consume all 10 messages from this queue
+4. consume all 10 messages from this queue
    ```bash
    python sqs_consumer.py
    ```
