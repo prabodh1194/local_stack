@@ -29,10 +29,7 @@ def consume_message(queue_name):
 
     print(msg)
 
-    sqs.delete_message(
-        QueueUrl=queue['QueueUrl'],
-        ReceiptHandle=rcpt_handle
-    )
+    # sqs.delete_message(QueueUrl=queue['QueueUrl'], ReceiptHandle=rcpt_handle)
 
     return True
 
